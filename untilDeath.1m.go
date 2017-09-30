@@ -26,5 +26,5 @@ func main() {
 	mins := (hours - rHours) * 60
 	rMins := math.Floor(mins)
 
-	fmt.Printf("%+vyrs, %+vdays, %+vhours, %+vminutes", rYrs, rDays, rHours, rMins)
+	fmt.Printf("%+vy, %+vd, %+vh, %+vm", rYrs, rDays, rHours, rMins)
 }
